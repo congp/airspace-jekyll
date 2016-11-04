@@ -73,7 +73,7 @@ header .navbar {
   border: 0px;
 }
 header .navbar-brand {
-  padding-top: 5px;
+  padding-top: 15px;
 }
 header .navbar-default {
   background: none;
@@ -132,7 +132,7 @@ font header .navbar-default .navbar-nav li a:hover {
   line-height: 40px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  letter-spacing: 3px;
+  width: 80%;
 }
 /*--
 	wrapper Start
@@ -404,7 +404,6 @@ font header .navbar-default .navbar-nav li a:hover {
 #global-header .block p {
   font-size: 16px;
   font-weight: 300;
-  letter-spacing: 1px;
   word-spacing: 3px;
 }
 /*--
@@ -479,9 +478,13 @@ font header .navbar-default .navbar-nav li a:hover {
 #portfolio-work .block .portfolio-contant ul li {
   float: left;
   width: 32.22%;
+  opacity: .5;
   overflow: hidden;
   margin: 6px;
   position: relative;
+}
+#portfolio-work .block .portfolio-contant ul li:hover {
+  opacity: 1;
 }
 #portfolio-work .block .portfolio-contant ul li:hover .overly {
   opacity: 1;
@@ -531,7 +534,6 @@ font header .navbar-default .navbar-nav li a:hover {
 #portfolio-work .block .portfolio-contant .position-center {
   position: absolute;
   top: 50%;
-  left: 10%;
   -webkit-transform: translate(0%, 50%);
   -moz-transform: translate(0%, 50%);
   -ms-transform: translate(0%, 50%);
@@ -539,6 +541,7 @@ font header .navbar-default .navbar-nav li a:hover {
   -webkit-transition: .5s all;
   -o-transition: .5s all;
   transition: .5s all;
+  width: 100%;
 }
 #portfolio-work .block .mix {
   display: none;
