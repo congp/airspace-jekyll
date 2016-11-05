@@ -193,7 +193,7 @@ px      68    160    252    */
     padding-bottom: 10px;
   }
   #slider .block p {
-    font-size: 13px;
+    font-size: 16px;
     line-height: 23px;
     width: 100%;
   }
@@ -232,9 +232,6 @@ px      68    160    252    */
   /*--
 	call-to-action Start
 --*/
-  #call-to-action p {
-    padding: 0px 0px 40px;
-  }
   #call-to-action .btn {
     padding: 10px 20px;
     font-size: 15px;
@@ -293,9 +290,23 @@ px      68    160    252    */
     font-size: 11px;
     line-height: 25px;
   }
+  #global-header {
+    padding: 40px 0;
+  }
+  #global-header .block {
+    padding-left: 0;
+  }
+  #global-header .block h1 {
+    font-size: 28px;
+    font-weight: 500;
+    padding-bottom: 0;
+  }
   /*--
 	portfolio Start
 --*/
+  #portfolio-work {
+    padding: 20px 0;
+  }
   #portfolio-work .block .portfolio-manu {
     padding-left: 0px;
     text-align: center;
@@ -404,17 +415,26 @@ px      68    160    252    */
     display: block;
     width: 100%;
   }
+  #contact-form {
+    padding: 20px 0;
+  }
   /*---------------------------------------------
 					contact close
 -----------------------------------------------*/
   /*--
 	footer Start
 --*/
+  #contact-box {
+    padding: 20px 0;
+  }
   footer .footer-manu {
     display: none;
   }
   footer p {
     margin-bottom: 0;
+  }
+  iframe {
+    width: 100%;
   }
 }
 /*		Wide Mobile Layout: 480px.
