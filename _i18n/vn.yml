@@ -1,0 +1,9 @@
+pages:
+  home: "Trang chủ"
+  about: "Giới thiệu"
+  products: "Sản phẩm"
+  store: "Cửa hàng"
+  contact: "Liên hệ"
+langs:
+  en: "English"
+  vn: "Tiếng Việt"

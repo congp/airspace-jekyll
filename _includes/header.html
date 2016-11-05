@@ -14,18 +14,35 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html">
-              <img src="{{ site.baseurl }}/img/logo.png" alt="Logo">
+            <a class="navbar-brand" href="{{ site.baseurl }}/index.html">
+              <img src="{{ site.baseurl_root }}/img/logo.png" alt="Logo">
             </a>
           </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="{{ site.baseurl }}/">Home</a></li>
-                <li><a href="{{ site.baseurl }}/#intro">About Us</a></li>
-                <li><a href="{{ site.baseurl }}/products">Products</a></li>
-                <li><a href="#">Online Store</a></li>
-                <li><a href="{{ site.baseurl }}/contact">Contact</a></li>
+                <li><a href="{{ site.baseurl }}/">{% t pages.home %}</a></li>
+                <li><a href="{{ site.baseurl }}/#intro">{% t pages.about %}</a></li>
+                <li><a href="{{ site.baseurl }}/products">{% t pages.products %}</a></li>
+                <li><a href="#">{% t pages.store %}</a></li>
+                <li><a href="{{ site.baseurl }}/contact">{% t pages.contact %}</a></li>
+                <!-- Adds links to other languages on the post -->
+                {% for lang in site.languages %}
+                  {% unless site.lang == lang %}
+                    {% if lang == site.default_lang %}
+                      <li><a href="{{ site.baseurl_root }}{{ page.url }}" style="color: blue;">{% t langs.{{ lang }} %}</a></li>
+                    {% else %}
+                      <li><a href="{{ site.baseurl_root }}/{{ lang }}{{ page.url }}" style="color: blue;">{% t langs.{{ lang }} %}</a></li>
+                    {% endif %}
+
+                    {% assign next = forloop.index | plus: 1 %}
+
+                    {% if forloop.last != true and site.languages[forloop.index] != site.lang or site.languages[forloop.index] == site.lang and next < forloop.length %}
+                      <span class="separator"> &bull; </span>
+                    {% endif %}
+
+                  {% endunless %}
+                {% endfor %}
               </ul>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->

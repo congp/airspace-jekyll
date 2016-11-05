@@ -14,8 +14,8 @@ keep_files:
 
 
 # Site settings
-title: Airspace
-subtitle: "A free HTML5 agency template"
+title: Cat Vu Co.
+subtitle: "Welcome to Cat Vu Co. Vietnam!"
 # Base URL of site. It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
@@ -38,3 +38,9 @@ descriptions:
 
   - cat: dummy
     desc: "Just some placeholder posts, lorem ipsum and the rest."
+
+gems: [jekyll-multiple-languages-plugin]
+
+languages: ["en", "vn"]
+
+exclude_from_localizations: ["js", "img", "fonts", "css"]

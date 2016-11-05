@@ -1,0 +1,9 @@
+pages:
+  home: "Home"
+  about: "About Us"
+  products: "Products"
+  store: "Online Store"
+  contact: "Contact"
+langs:
+  en: "English"
+  vn: "Tiếng Việt"

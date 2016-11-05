@@ -1,0 +1,168 @@
+<section id="slider">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-2">
+        <div class="block">
+          <h1 class="animated fadeInUp">Chào mừng các bạn đã đến với website<br>Công ty Cát Vũ!</h1>
+          <p class="animated fadeInUp">Cám ơn các bạn đã dành sự quan tâm đến Công ty chúng tôi. Công ty Cát Vũ hoan nghênh mọi sự ủng hộ và góp ý từ các bạn.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Wrapper Start -->
+<section id="intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 col-sm-12">
+        <div class="block">
+          <div class="section-title">
+            <h2>Giới thiệu chung về Công ty</h2>
+          </div>
+          <p>
+            Công ty trách nhiệm hữu hạn và thương mại Cát Vũ được thành lập vào năm 2003 theo luật doanh nghiệp Việt Nam. Trụ sở tại Thành phố Hồ Chí Minh, Công ty Cát Vũ hoạt động với tư cách là nhà đại lý và phân phối bán hàng thuộc lĩnh vực máy móc thiết bị và vật tư thí nghiệm trong ngành dệt may và giày da. Bên cạnh đó, Cát Vũ cũng là nhà đại lý phân phối duy nhất trong lĩnh vực hóa chất cơ bản tại Việt Nam cho nhiều nhà sản xuất uy tín hàng đầu trên thế giới. Kể từ khi thành lập, với tầm nhìn dài hạn, triết lý phát triển bền vững và môi trường làm việc chuyên nghiệp, Công ty Cát Vũ đã không ngừng tập trung vào chất lượng sản phẩm và dịch vụ nhằm đáp ứng chính xác nhất nhu cầu và kỳ vọng của khách hàng. Trong 10 năm hoạt động, cho đến nay Cát Vũ  đã có số lượng các nhà cung cấp nhiều hơn, đa dạng hơn. Tuy vậy, để có thể cung cấp tốt hơn trong phạm vi ngành và lĩnh vực, Công ty luôn luôn tìm kiếm và kết nạp thêm các nhà cung cấp quốc tế khác.
+            <br><br>
+            Với đội ngũ nhân viên chuyên nghiệp, năng động, có tinh thần trách nhiệm cao và tác phong làm việc gần gũi với khách hàng, mục tiêu của Công ty Cát Vũ hướng đến trong tương lai gần là trở thành nhà phân phối và cung cấp vật tư thí nghiệm hàng đầu tại Việt Nam.
+            <br><br>
+            Các ngành nghề và hoạt động chính của Công ty Cát Vũ:
+            <br>
+            - Cung cấp máy, phụ tùng và vật tư thí nghiệm
+            <br>
+            - Cung cấp các loại hoá chất cơ bản
+          </p>
+        </div>
+      </div><!-- .col-md-7 close -->
+      <div class="col-md-5 col-sm-12">
+        <div class="block">
+          <img src="{{ site.baseurl_root }}/img/handshake.jpg" alt="Img">
+        </div>
+      </div><!-- .col-md-5 close -->
+    </div>
+  </div>
+</section>
+
+<!-- Call to action Start -->
+<section id="call-to-action">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h2>“With our philosophy of continual improvements for mutual benefits, we are dedicated to delivering high quality products and services to our clients.”</h2>
+          <p>Hoàng Văn Lợi &mdash; Giám đốc</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="feature">
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-6">
+      <h2 class="section-title">Lĩnh vực hoạt động</h2>
+      <p>Từ khi thành lập cho đến nay, hoạt động chủ yếu của Công ty Cát Vũ là cung cấp dịch vụ, nguyên liệu, phụ tùng, hóa chất,  máy móc và thiết bị cho ngành dệt may tại Việt Nam. Công ty cũng chuyên cung cấp các loại hàng hóa như vật tư thí nghiệm, thiết bị thí nghiệm và các phụ tùng thay thế cho ngành dệt may và giày da. Cát Vũ tự hào là nhà đại diện thương mại cho nhiều nhà sản xuất , chế tạo thiết bị công nghiệp hàng đầu tại Úc, Ấn Độ, Nhật Bản, Châu Âu và Hoa Kỳ.</p>
+
+      <h4>Vật tư thí nghiệm</h4>
+      <p>Cát vũ là nhà phân phối chính thức các loại Vật Tư Thí Nghiệm của SDC Enterprise, một nhà sản xuất hàng đầu của Anh cho ngành công nghiệp dệt may và giày da Việt Nam. Công ty Cát Vũ có kho hàng Vật Tư Thí Nghiệm tại TP. Hồ Chí Minh, nhằm cung cấp cho nhu cầu hàng ngày của quý khách hàng tại Việt Nam.</p>
+
+      <h4>Hóa Chất Cơ Bản</h4>
+      <p>Cát Vũ là nhà nhập khẩu các loại hóa chất cơ bản như Lưu Huỳnh, Hydrôxít nhôm, Acid Sulphuric, KCL và Muối công nghiệp.</p>
+
+      <h4>Máy, phụ tùng và vật tư thí nghiệm cho ngành dệt-may, giày da Việt Nam</h4>
+      <ul>
+        <li>Tandematic (Hoa Kỳ) : Máy kẹp biên vải, hệ thống dẫn vải</li>
+        <li>US Supply (Hoa Kỳ) : Bành cao sut, băng sấy</li>
+        <li>SDC ENTERPRISE (Anh): Vật tư thí nghiệm</li>
+        <li>Colour Smith (Anh): Máy thí nghiệm</li>
+        <li>Safe Guards (Hồng Kông): Máy thử nút</li>
+      </ul>
+
+      <h4>Máy và phụ tùng cho các ứng dụng khác trong lĩnh vực lọc, trộn-khuấy và máy phát điện dùng hơi:</h4>
+      <ul>
+        <li>Skinner Power System  (Hoa Kỳ)  : Máy phát điện hơi CS đến 1 MW</li>
+        <li>Biogreen Energy System (Ấn Độ): Dịch vụ cho máy phát điện của SPS</li>
+        <li>CEM International  (Úc): Hệ thống lọc Hydrô xít nhôm, Máy khuấy-trộn trong các nhà máy chế biến thực phẩm, thức ăn gia súc, sản xuất thuốc trong lĩnh vực y tế</li>
+        <li>Ishigaki Company Limited (Nhận Bản) : Máy lọc ép</li>
+      </ul>
+      <a href="{{ site.baseurl }}/products" class="btn btn-view-works">Xem những sản phẩm của chúng tôi</a>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- Partner Start -->
+<section id="service">
+  <div class="container">
+    <div class="row">
+      <div class="section-title">
+        <h2>Các đối tác</h2>
+      </div>
+    </div>
+    <div class="row ">
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <img class="partner-logo" src="{{ site.baseurl_root }}/img/partners/cem.gif" alt="CEM International">
+          <h4>CEM International</h4>
+          <small>Úc</small>
+          <p>Máy lọc chảo</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <img class="partner-logo" src="{{ site.baseurl_root }}/img/partners/ishigaki.png" alt="Ishigaki Company, Ltd.">
+          <h4>Ishigaki Company, Ltd.</h4>
+          <small>Nhật</small>
+          <p>Máy lọc ép</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <img class="partner-logo" src="{{ site.baseurl_root }}/img/partners/tande.gif" alt="Tandematic">
+          <h4>Tandematic</h4>
+          <small>Hoa Kỳ</small>
+          <p>Xử lý biên vải</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <img class="partner-logo" src="{{ site.baseurl_root }}/img/partners/skinner.png" alt="Skinner Power System">
+          <h4>Skinner Power System</h4>
+          <small>Hoa Kỳ</small>
+          <p>Tua-bin</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <img class="partner-logo" src="{{ site.baseurl_root }}/img/partners/sdc.png" alt="SDC">
+          <h4>SDC</h4>
+          <small>Anh</small>
+          <p>Vật tư thí nghiệm</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <img class="partner-logo" src="{{ site.baseurl_root }}/img/partners/shield.gif" alt="US Supply Inc.">
+          <h4>US Supply Inc.</h4>
+          <small>Hoa Kỳ</small>
+          <p>Bành cao su</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <img class="partner-logo" src="{{ site.baseurl_root }}/img/partners/biogreen.png" alt="biogreen energy system (p) limited">
+          <h4>biogreen energy system (p) limited</h4>
+          <small>Ấn Độ</small>
+          <p>Điều khiển tua-bin</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <img class="partner-logo" src="{{ site.baseurl_root }}/img/partners/hoachatmn.jpg" alt="Southern Chemical Vietnam">
+          <h4>Southern Chemical Vietnam</h4>
+          <small>Việt Nam</small>
+          <p>Hoá chất cơ bản</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
