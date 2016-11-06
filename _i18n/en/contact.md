@@ -52,7 +52,7 @@
               <i class="fa fa-envelope-o"></i>Email: catvu@gmail.com
             </li>
             <li>
-              <i class="fa fa-phone"></i>Phone:+84 12 345 6789
+              <i class="fa fa-phone"></i>Phone: +84 12 345 6789
             </li>
           </ul>
         </div>

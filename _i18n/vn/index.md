@@ -47,7 +47,7 @@
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h2>“With our philosophy of continual improvements for mutual benefits, we are dedicated to delivering high quality products and services to our clients.”</h2>
+          <h2>“Với triết lý liên tục cải tiến để đôi bên cùng có lợi, công ty chúng tôi nỗ lực không ngừng để mang đến sản phẩm và dịch vụ chất lượng.”</h2>
           <p>Hoàng Văn Lợi &mdash; Giám đốc</p>
         </div>
       </div>
