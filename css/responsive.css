@@ -329,6 +329,15 @@ px      68    160    252    */
     font-size: 11px;
     line-height: 20px;
   }
+  #portfolio-work .block .portfolio-contant .overly {
+    opacity: 1;
+  }
+  #portfolio-work .block .portfolio-contant .overly .position-center {
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
   #portfolio-work .block .portfolio-contant ul li a .overlay {
     padding-left: 15px;
   }
