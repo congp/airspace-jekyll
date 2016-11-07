@@ -43,16 +43,19 @@
     <div id="contact-box" class="row">
       <div class="col-md-6 col-sm-12">
         <div class="block">
-          <h2>Stop By For A visit</h2>
+          <h2>Stop By For A Visit</h2>
           <ul class="address-block">
             <li>
               <i class="fa fa-map-marker"></i>85 Tran Minh Quyen, District 10, HCMC, Vietnam
             </li>
             <li>
-              <i class="fa fa-envelope-o"></i>Email: catvu@gmail.com
+              <i class="fa fa-map-marker"></i>76 23rd St., My Thai 3, Tan Phu Ward, District 7, HCMC, Vietnam
             </li>
             <li>
-              <i class="fa fa-phone"></i>Phone: +84 12 345 6789
+              <i class="fa fa-envelope-o"></i>Email: info@catvuvietnam.com
+            </li>
+            <li>
+              <i class="fa fa-phone"></i>Phone: 08 54 171539
             </li>
           </ul>
         </div>

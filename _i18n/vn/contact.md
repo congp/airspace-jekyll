@@ -49,10 +49,13 @@
               <i class="fa fa-map-marker"></i>85 Trần Minh Quyền, Quận 10, TPHCM, Việt Nam
             </li>
             <li>
-              <i class="fa fa-envelope-o"></i>Email: catvu@gmail.com
+              <i class="fa fa-map-marker"></i>76 Đường 23, Khu Mỹ Thái 3, Phường Tân Phú, Quận 7, TPHCM, Việt Nam
             </li>
             <li>
-              <i class="fa fa-phone"></i>Phone: +84 12 345 6789
+              <i class="fa fa-envelope-o"></i>Email: info@catvuvietnam.com
+            </li>
+            <li>
+              <i class="fa fa-phone"></i>Phone: 08 54 171539
             </li>
           </ul>
         </div>
