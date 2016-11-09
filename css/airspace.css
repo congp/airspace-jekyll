@@ -61,6 +61,11 @@ a:active {
   font-style: italic;
   color: #666;
 }
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 /*--
 	Header Start
 --*/
@@ -188,6 +193,39 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #service .service-item .partner-logo {
   padding: 40px 0 20px;
+}
+.partner-tab-nav {
+  margin-bottom: 30px;
+}
+.partner-tab-nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.partner-tab-nav ul li .partner-tab-a {
+  color: black;
+  font-weight: 700;
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+.partner-tab-nav ul li .partner-tab-a:hover {
+  color: blue;
+  border-color: blue;
+}
+.partner-tab-nav ul li .partner-tab-a.active {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+  pointer-events: none;
+}
+.partner-tab {
+  display: none;
+}
+.partner-tab.active {
+  display: block;
+}
+.partner-tab .partner:last-child {
+  clear: both;
 }
 /*--
 	call-to-action Start

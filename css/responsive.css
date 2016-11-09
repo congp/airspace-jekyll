@@ -227,7 +227,10 @@ px      68    160    252    */
     padding-bottom: 70px;
   }
   .section-title {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+  }
+  .partner-tab-nav ul li {
+    margin-left: 0;
   }
   /*--
 	call-to-action Start

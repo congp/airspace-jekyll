@@ -99,48 +99,30 @@
         <h2>Our Partners</h2>
       </div>
     </div>
-    <div class="row ">
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <img class="partner-logo" src="{{ site.baseurl }}/img/partners/cem.gif" alt="CEM International">
-          <h4>CEM International</h4>
-          <small>Australia</small>
-          <p>Filtration system for alumina hydrate</p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <img class="partner-logo" src="{{ site.baseurl }}/img/partners/ishigaki.png" alt="Ishigaki Company, Ltd.">
-          <h4>Ishigaki Company, Ltd.</h4>
-          <small>Japan</small>
-          <p>Filter press</p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <img class="partner-logo" src="{{ site.baseurl }}/img/partners/tande.gif" alt="Tandematic">
-          <h4>Tandematic</h4>
-          <small>USA</small>
-          <p>Derculer, guiding systems</p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <img class="partner-logo" src="{{ site.baseurl }}/img/partners/skinner.png" alt="Skinner Power System">
-          <h4>Skinner Power System</h4>
-          <small>USA</small>
-          <p>Steam turbine</p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
+    <div class="row partner-tab-nav">
+      <ul>
+        <li><a href="javascript:void(0);" class="partner-tab-a active" data-tab="chemical">Chemical</a></li>
+        <li><a href="javascript:void(0);" class="partner-tab-a" data-tab="texgar">Textile and Garment</a></li>
+      </ul>
+    </div>
+    <div class="row partner-tab active group" data-tab="chemical">
+      <div class="col-sm-6 col-md-3 partner">
         <div class="service-item">
           <img class="partner-logo" src="{{ site.baseurl }}/img/partners/sdc.png" alt="SDC">
-          <h4>SDC</h4>
+          <h4>SDC Enterprise</h4>
           <small>UK</small>
           <p>Test consumables</p>
         </div>
       </div>
-      <div class="col-sm-6 col-md-3">
+      <div class="col-sm-6 col-md-3 partner">
+        <div class="service-item">
+          <img class="partner-logo" width="200px" src="{{ site.baseurl }}/img/partners/dunline.png" alt="Dunline">
+          <h4>Dunline</h4>
+          <small>USA</small>
+          <p>Rubber belt</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3 partner">
         <div class="service-item">
           <img class="partner-logo" src="{{ site.baseurl }}/img/partners/shield.gif" alt="US Supply Inc.">
           <h4>US Supply Inc.</h4>
@@ -148,19 +130,62 @@
           <p>Rubber belt</p>
         </div>
       </div>
-      <div class="col-sm-6 col-md-3">
+      <div class="col-sm-6 col-md-3 partner">
         <div class="service-item">
-          <img class="partner-logo" src="{{ site.baseurl }}/img/partners/biogreen.png" alt="biogreen energy system (p) limited">
-          <h4>biogreen energy system (p) limited</h4>
-          <small>India</small>
+          <img class="partner-logo" src="{{ site.baseurl }}/img/partners/tande.gif" alt="Tandematic">
+          <h4>Tandematic</h4>
+          <small>USA</small>
+          <p>Derculer, guiding systems</p>
         </div>
       </div>
-      <div class="col-sm-6 col-md-3">
+      <div class="col-sm-6 col-md-3 partner">
+        <div class="service-item">
+          <img class="partner-logo" src="{{ site.baseurl }}/img/partners/hoachatmn.jpg" alt="Southern Chemical Vietnam">
+          <h4>GTE</h4>
+          <small>Hongkong</small>
+          <p>Chemicals</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row partner-tab group" data-tab="texgar">
+      <div class="col-sm-6 col-md-3 partner">
+        <div class="service-item">
+          <img class="partner-logo" src="{{ site.baseurl }}/img/partners/cem.gif" alt="CEM International">
+          <h4>CEM International</h4>
+          <small>Australia</small>
+          <p>Filtration system for alumina hydrate</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3 partner">
+        <div class="service-item">
+          <img class="partner-logo" src="{{ site.baseurl }}/img/partners/ishigaki.png" alt="Ishigaki Company, Ltd.">
+          <h4>Ishigaki Company, Ltd.</h4>
+          <small>Japan</small>
+          <p>Filter press</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3 partner">
         <div class="service-item">
           <img class="partner-logo" src="{{ site.baseurl }}/img/partners/hoachatmn.jpg" alt="Southern Chemical Vietnam">
           <h4>Southern Chemical Vietnam</h4>
           <small>Vietnam</small>
           <p>Chemicals</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3 partner">
+        <div class="service-item">
+          <img class="partner-logo" src="{{ site.baseurl }}/img/partners/skinner.png" alt="Skinner Power System">
+          <h4>Skinner Power System</h4>
+          <small>USA</small>
+          <p>Steam turbine</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3 partner">
+        <div class="service-item">
+          <img class="partner-logo" src="{{ site.baseurl }}/img/partners/biogreen.png" alt="biogreen energy system (p) limited">
+          <h4>biogreen energy system (p) limited</h4>
+          <small>India</small>
         </div>
       </div>
     </div>

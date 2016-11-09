@@ -98,10 +98,59 @@
         <h2>Các đối tác</h2>
       </div>
     </div>
-    <div class="row ">
+    <div class="row partner-tab-nav" data-tab="chemical">
+      <ul>
+        <li><a href="javascript:void(0);" class="partner-tab-a active" data-tab="chemical">Hoá chất</a></li>
+        <li><a href="javascript:void(0);" class="partner-tab-a" data-tab="texgar">Dệt may</a></li>
+      </ul>
+    </div>
+    <div class="row partner-tab active group">
       <div class="col-sm-6 col-md-3">
         <div class="service-item">
-          <img class="partner-logo" src="{{ site.baseurl_root }}/img/partners/cem.gif" alt="CEM International">
+          <img class="partner-logo" src="{{ site.baseurl_root }}/img/partners/sdc.png" alt="SDC">
+          <h4>SDC</h4>
+          <small>Anh</small>
+          <p>Vật tư thí nghiệm</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3 partner">
+        <div class="service-item">
+          <img class="partner-logo" width="200px" src="{{ site.baseurl_root }}/img/partners/dunline.png" alt="Dunline">
+          <h4>Dunline</h4>
+          <small>Hoa Kỳ</small>
+          <p>Bành cao su</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <img class="partner-logo" src="{{ site.baseurl_root }}/img/partners/shield.gif" alt="US Supply Inc.">
+          <h4>US Supply Inc.</h4>
+          <small>Hoa Kỳ</small>
+          <p>Bành cao su</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <img class="partner-logo" src="{{ site.baseurl_root }}/img/partners/tande.gif" alt="Tandematic">
+          <h4>Tandematic</h4>
+          <small>Hoa Kỳ</small>
+          <p>Xử lý biên vải</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3 partner">
+        <div class="service-item">
+          <img class="partner-logo" src="{{ site.baseurl_root }}/img/partners/hoachatmn.jpg" alt="Southern Chemical Vietnam">
+          <h4>GTE</h4>
+          <small>Hồng Kông</small>
+          <p>Hoá chất</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row partner-tab group" data-tab="texgar">
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <img class="partner-logo" src="{{ site.baseurl_root }}/img/partners/cem.gif" alt="CEM">
           <h4>CEM International</h4>
           <small>Úc</small>
           <p>Máy lọc chảo</p>
@@ -117,10 +166,10 @@
       </div>
       <div class="col-sm-6 col-md-3">
         <div class="service-item">
-          <img class="partner-logo" src="{{ site.baseurl_root }}/img/partners/tande.gif" alt="Tandematic">
-          <h4>Tandematic</h4>
-          <small>Hoa Kỳ</small>
-          <p>Xử lý biên vải</p>
+          <img class="partner-logo" src="{{ site.baseurl_root }}/img/partners/hoachatmn.jpg" alt="Southern Chemical Vietnam">
+          <h4>Hoá chất cơ bản miền nam</h4>
+          <small>Việt Nam</small>
+          <p>Hoá chất cơ bản</p>
         </div>
       </div>
       <div class="col-sm-6 col-md-3">
@@ -133,34 +182,10 @@
       </div>
       <div class="col-sm-6 col-md-3">
         <div class="service-item">
-          <img class="partner-logo" src="{{ site.baseurl_root }}/img/partners/sdc.png" alt="SDC">
-          <h4>SDC</h4>
-          <small>Anh</small>
-          <p>Vật tư thí nghiệm</p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <img class="partner-logo" src="{{ site.baseurl_root }}/img/partners/shield.gif" alt="US Supply Inc.">
-          <h4>US Supply Inc.</h4>
-          <small>Hoa Kỳ</small>
-          <p>Bành cao su</p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
           <img class="partner-logo" src="{{ site.baseurl_root }}/img/partners/biogreen.png" alt="biogreen energy system (p) limited">
           <h4>biogreen energy system (p) limited</h4>
           <small>Ấn Độ</small>
           <p>Điều khiển tua-bin</p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <img class="partner-logo" src="{{ site.baseurl_root }}/img/partners/hoachatmn.jpg" alt="Southern Chemical Vietnam">
-          <h4>Southern Chemical Vietnam</h4>
-          <small>Việt Nam</small>
-          <p>Hoá chất cơ bản</p>
         </div>
       </div>
     </div>
