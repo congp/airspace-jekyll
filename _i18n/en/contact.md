@@ -13,33 +13,31 @@
 <!-- contact form start -->
 <section id="contact-form">
   <div class="container">
-    <div class="row">
-      <div class="col-md-6 col-sm-12">
-        <div class="block">
-          <form>
+    <form action="https://getsimpleform.com/messages?form_api_token=83ce88cff0fdea13c1848e6b1986f4ed" method="post">
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <div class="block">
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Your Name">
+              <input type="text" class="form-control" name="name" placeholder="Your Name">
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Email Address">
+              <input type="text" class="form-control" name="email" placeholder="Email Address">
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Subject">
+              <input type="text" class="form-control" name="subject" placeholder="Subject">
             </div>
-          </form>
+          </div>
         </div>
-      </div>
-      <div class="col-md-6 col-sm-12">
-        <div class="block">
-          <form>
+        <div class="col-md-6 col-sm-12">
+          <div class="block">
             <div class="form-group-2">
-              <textarea class="form-control" rows="3" placeholder="Your Message"></textarea>
+              <textarea class="form-control" rows="3" name="message" placeholder="Your Message"></textarea>
             </div>
             <button class="btn btn-default" type="submit">Send Message</button>
-          </form>
+          </div>
         </div>
       </div>
-    </div>
+    </form>
     <div id="contact-box" class="row">
       <div class="col-md-6 col-sm-12">
         <div class="block">
