@@ -182,6 +182,10 @@ px      68    160    252    */
     padding-top: 90px;
     padding-bottom: 100px;
     height: calc(100vh - 114px);
+    -webkit-transform: translateY(-40px);
+    -moz-transform: translateY(-40px);
+    -ms-transform: translateY(-40px);
+    transform: translateY(-40px);
   }
   #slider .block {
     padding-left: 0px;
@@ -295,6 +299,10 @@ px      68    160    252    */
   }
   #global-header {
     padding: 40px 0;
+    -webkit-transform: translateY(-40px);
+    -moz-transform: translateY(-40px);
+    -ms-transform: translateY(-40px);
+    transform: translateY(-40px);
   }
   #global-header .block {
     padding-left: 0;
