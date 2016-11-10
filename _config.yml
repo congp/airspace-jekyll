@@ -44,3 +44,6 @@ gems: [jekyll-multiple-languages-plugin, dato]
 languages: ["en", "vn"]
 
 exclude_from_localizations: ["js", "img", "fonts", "css"]
+
+collections:
+  - i18n
