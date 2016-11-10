@@ -115,6 +115,10 @@ font header .navbar-default .navbar-nav li a:hover {
   background-position: 10% 0%;
   padding: 200px 0 280px 0;
   position: relative;
+  -webkit-transform: translateY(-20px);
+  -moz-transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
+  transform: translateY(-20px);
 }
 #slider:before {
   content: "";
@@ -419,6 +423,10 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-bottom: 107px;
   position: relative;
   background-attachment: fixed;
+  -webkit-transform: translateY(-20px);
+  -moz-transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
+  transform: translateY(-20px);
 }
 #global-header:before {
   content: "";
