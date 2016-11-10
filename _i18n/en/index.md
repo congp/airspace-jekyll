@@ -1,3 +1,8 @@
+---
+title: Home
+date: '2016-11-10 07:00:00'
+---
+
 <section id="slider">
   <div class="container">
     <div class="row">

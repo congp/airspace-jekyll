@@ -48,6 +48,13 @@ a:focus,
 a:active {
   text-decoration: none !important;
 }
+hr {
+  display: none;
+}
+
+hr + p {
+  display: none;
+}
 .section-title {
   margin-bottom: 70px;
 }

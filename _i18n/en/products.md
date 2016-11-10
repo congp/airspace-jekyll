@@ -1,3 +1,8 @@
+---
+title: Products
+date: '2016-11-10 07:00:00'
+---
+
 <section id="global-header">
   <div class="container">
     <div class="row">
