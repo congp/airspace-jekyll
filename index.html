@@ -4,3 +4,17 @@ layout: page
 permalink: "/"
 ---
 {% translate_file index.html %}
+
+<script type="text/javascript">
+$(document).ready(function(){
+  /*creating click event for each tab menu*/
+  $(document.body).on("click",".partner-tab-a",function(){
+    $(".partner-tab").removeClass('active');
+    /*adding the active class for the current selected tab*/
+    $(".partner-tab[data-tab='"+$(this).attr('data-tab')+"']").addClass("active");
+    $(".partner-tab-a").removeClass('active');
+    /*adding the active class for the current selected tab menu*/
+    $(this).parent().find(".partner-tab-a").addClass('active');
+  });
+});
+</script>
