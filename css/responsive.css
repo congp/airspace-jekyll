@@ -236,6 +236,20 @@ px      68    160    252    */
   .partner-tab-nav ul li {
     margin-left: 0;
   }
+  .partner-wrapper {
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .partner-tab {
+    width: 100%;
+  }
+  .partner-tab:first-child {
+    border-bottom: 1px solid #ddd;
+    border-right: 0;
+  }
+  .partner {
+    width: 100%;
+  }
   /*--
 	call-to-action Start
 --*/

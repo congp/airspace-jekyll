@@ -204,6 +204,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #service .service-item .partner-logo {
   padding: 40px 0 20px;
+  max-width: 100%;
 }
 .partner-tab-nav {
   margin-bottom: 30px;
@@ -229,14 +230,39 @@ font header .navbar-default .navbar-nav li a:hover {
   border-color: blue;
   pointer-events: none;
 }
+.partner-wrapper {
+  display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox;  /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+  display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+}
 .partner-tab {
-  display: none;
+  vertical-align: top;
+  width: 50%;
+  display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox;  /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+  display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 20px;
 }
-.partner-tab.active {
+.partner-tab:first-child {
+  border-right: 1px solid #ddd;
+}
+.partner-tab .title {
+  -webkit-box-flex: 0 0 100%;   /* OLD - iOS 6-, Safari 3.1-6 */
+  width: 100%;            /* For old syntax, otherwise collapses. */
+  -webkit-flex: 0 0 100%;       /* Safari 6.1+. iOS 7.1+, BB10 */
+  -ms-flex: 0 0 100%;           /* IE 10 */
+  flex: 0 0 100%;               /* NEW, Spec - Firefox, Chrome, Opera */
+}
+/*.partner-tab.active {
   display: block;
-}
-.partner-tab .partner:last-child {
-  clear: both;
+}*/
+.partner {
+  padding: 10px;
+  width: 50%;
 }
 /*--
 	call-to-action Start
