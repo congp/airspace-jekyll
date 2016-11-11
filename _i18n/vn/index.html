@@ -37,7 +37,7 @@ permalink: "/vn/"
       </div><!-- .col-md-7 close -->
       <div class="col-md-5 col-sm-12">
         <div class="block">
-          <img src="%7B%7B%20site.baseurl_root%20%7D%7D/img/handshake.jpg" alt="Img">
+          <img src="{{ site.baseurl_root }}/img/handshake.jpg" alt="Img">
         </div>
       </div><!-- .col-md-5 close -->
     </div>
@@ -84,7 +84,7 @@ permalink: "/vn/"
         <li>CEM International  (Úc): Hệ thống lọc Hydrôxít nhôm, Máy khuấy-trộn trong các nhà máy chế biến thực phẩm, thức ăn gia súc, sản xuất thuốc trong lĩnh vực y tế</li>
         <li>Ishigaki Company Limited (Nhận Bản) : Máy lọc ép</li><li>Skinner Power System (Hoa Kỳ) : Máy phát điện hơi công suất đến 1 MW<br></li><li>Biogreen Energy System (Ấn Độ): Dịch vụ cho máy phát điện của Skin Power System<br></li>
       </ul>
-      <a href="{{ site.baseurl }}/products" class="btn btn-view-works">Xem những sản phẩm của chúng tôi</a>
+      <a href="{{ site.baseurl_root }}/products" class="btn btn-view-works">Xem những sản phẩm của chúng tôi</a>
     </div>
   </div>
 </div>
@@ -98,16 +98,16 @@ permalink: "/vn/"
         <h2>Các đối tác</h2>
       </div>
     </div>
-    <div class="row partner-tab-nav" data-tab="chemical">
+    <div class="row partner-tab-nav">
       <ul>
-        <li>Dệt may</li>
-        <li>Hoá chất</li>
+        <li><a href="javascript:void(0);" class="partner-tab-a active" data-tab="texgar">Dệt may</a></li>
+        <li><a href="javascript:void(0);" class="partner-tab-a" data-tab="chemical">Hoá chất</a>&nbsp;</li>
       </ul>
     </div>
-    <div class="row partner-tab active group">
+    <div class="row partner-tab group" data-tab="chemical">
       <div class="col-sm-6 col-md-3">
         <div class="service-item">
-          <img class="partner-logo" src="%7B%7B%20site.baseurl_root%20%7D%7D/img/partners/sdc.png" alt="SDC">
+          <img class="partner-logo" src="{{ site.baseurl_root }}/img/partners/sdc.png" alt="SDC">
           <h4>SDC</h4>
           <small>Anh</small>
           <p>Vật tư thí nghiệm</p>
@@ -115,7 +115,7 @@ permalink: "/vn/"
       </div>
       <div class="col-sm-6 col-md-3 partner">
         <div class="service-item">
-          <img class="partner-logo" width="200px" src="%7B%7B%20site.baseurl_root%20%7D%7D/img/partners/dunline.png" alt="Dunline">
+          <img class="partner-logo" width="200px" src="{{ site.baseurl_root }}/img/partners/dunline.png" alt="Dunline">
           <h4>Dunline</h4>
           <small>Hoa Kỳ</small>
           <p>Băng cao su cho máy sanfor và compact</p>
@@ -123,7 +123,7 @@ permalink: "/vn/"
       </div>
       <div class="col-sm-6 col-md-3">
         <div class="service-item">
-          <img class="partner-logo" src="%7B%7B%20site.baseurl_root%20%7D%7D/img/partners/shield.gif" alt="US Supply Inc.">
+          <img class="partner-logo" src="{{ site.baseurl_root }}/img/partners/shield.gif" alt="US Supply Inc.">
           <h4>US Supply Inc.</h4>
           <small>Hoa Kỳ</small>
           <p>Băng nỉ, băng sấy</p>
@@ -131,7 +131,7 @@ permalink: "/vn/"
       </div>
       <div class="col-sm-6 col-md-3">
         <div class="service-item">
-          <img class="partner-logo" src="%7B%7B%20site.baseurl_root%20%7D%7D/img/partners/tande.gif" alt="Tandematic">
+          <img class="partner-logo" src="{{ site.baseurl_root }}/img/partners/tande.gif" alt="Tandematic">
           <h4>Tandematic</h4>
           <small>Hoa Kỳ</small>
           <p>Xử lý biên vải, hệ thống dẫn vải</p>
@@ -139,7 +139,7 @@ permalink: "/vn/"
       </div>
       <div class="col-sm-6 col-md-3 partner">
         <div class="service-item">
-          <img class="partner-logo" src="%7B%7B%20site.baseurl_root%20%7D%7D/img/partners/hoachatmn.jpg" alt="Southern Chemical Vietnam">
+          <img class="partner-logo" src="{{ site.baseurl_root }}/img/partners/hoachatmn.jpg" alt="Southern Chemical Vietnam">
           <h4>GTE</h4>
           <small>Hồng Kông</small>
           <p>Máy thử bền nút, các loại vật tư thí nghiệm</p>
@@ -147,10 +147,10 @@ permalink: "/vn/"
       </div>
     </div>
 
-    <div class="row partner-tab group" data-tab="texgar">
+    <div class="row partner-tab active group" data-tab="texgar">
       <div class="col-sm-6 col-md-3">
         <div class="service-item">
-          <img class="partner-logo" src="%7B%7B%20site.baseurl_root%20%7D%7D/img/partners/cem.gif" alt="CEM">
+          <img class="partner-logo" src="{{ site.baseurl_root }}/img/partners/cem.gif" alt="CEM">
           <h4>CEM International</h4>
           <small>Úc</small>
           <p>Máy lọc chảo hút chân không</p>
@@ -158,7 +158,7 @@ permalink: "/vn/"
       </div>
       <div class="col-sm-6 col-md-3">
         <div class="service-item">
-          <img class="partner-logo" src="%7B%7B%20site.baseurl_root%20%7D%7D/img/partners/ishigaki.png" alt="Ishigaki Company, Ltd.">
+          <img class="partner-logo" src="{{ site.baseurl_root }}/img/partners/ishigaki.png" alt="Ishigaki Company, Ltd.">
           <h4>Ishigaki Company, Ltd.</h4>
           <small>Nhật</small>
           <p>Máy lọc ép</p>
@@ -166,7 +166,7 @@ permalink: "/vn/"
       </div>
       <div class="col-sm-6 col-md-3">
         <div class="service-item">
-          <img class="partner-logo" src="%7B%7B%20site.baseurl_root%20%7D%7D/img/partners/hoachatmn.jpg" alt="Southern Chemical Vietnam">
+          <img class="partner-logo" src="{{ site.baseurl_root }}/img/partners/hoachatmn.jpg" alt="Southern Chemical Vietnam">
           <h4>Hoá chất cơ bản miền nam</h4>
           <small>Việt Nam</small>
           <p>Hoá chất cơ bản</p>
@@ -174,7 +174,7 @@ permalink: "/vn/"
       </div>
       <div class="col-sm-6 col-md-3">
         <div class="service-item">
-          <img class="partner-logo" src="%7B%7B%20site.baseurl_root%20%7D%7D/img/partners/skinner.png" alt="Skinner Power System">
+          <img class="partner-logo" src="{{ site.baseurl_root }}/img/partners/skinner.png" alt="Skinner Power System">
           <h4>Skinner Power System</h4>
           <small>Hoa Kỳ</small>
           <p>Tua-bin hơi công suất nhỏ dưới 1MW</p>
@@ -182,7 +182,7 @@ permalink: "/vn/"
       </div>
       <div class="col-sm-6 col-md-3">
         <div class="service-item">
-          <img class="partner-logo" src="%7B%7B%20site.baseurl_root%20%7D%7D/img/partners/biogreen.png" alt="biogreen energy system (p) limited">
+          <img class="partner-logo" src="{{ site.baseurl_root }}/img/partners/biogreen.png" alt="biogreen energy system (p) limited">
           <h4>biogreen energy system (p) limited</h4>
           <small>Ấn Độ</small>
           <p>Điều khiển tua-bin, lắp đặt và chuyển giao công nghệ</p>
