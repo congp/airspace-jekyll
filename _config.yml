@@ -41,6 +41,7 @@ descriptions:
 
 plugins:
   - jekyll-multiple-languages-plugin
+  - jekyll-menus
 
 gems: [jekyll-multiple-languages-plugin, dato]
 
